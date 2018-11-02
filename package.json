@@ -15,5 +15,17 @@
     "prop-types": "^15.6.2",
     "react-redux": "^5.1.0",
     "react-navigation": "^2.18.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-expo": "^6.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "eslintConfig": {
+    "extends": "expo"
   }
 }
