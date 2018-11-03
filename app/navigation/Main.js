@@ -1,11 +1,12 @@
-import React from 'react';
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 import Home from '../screen/Home';
 
-const Main = StackNavigator({
+const Main = createStackNavigator({
   Home: {
-    screen: <Home />,
-    title: 'Home',
+    screen: Home,
+    navigationOptions: {
+      title: 'Home',
+    },
   },
 }, {
   initialRouteName: 'Home',
